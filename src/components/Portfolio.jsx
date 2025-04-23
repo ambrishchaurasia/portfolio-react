@@ -145,7 +145,7 @@ export default function Portfolio() {
 >
 <div className="bg-white rounded-2xl shadow-md hover:shadow-lg p-4 transition duration-300">
   <img
-    src="/thumbnails/Gaming.jpg"
+    src={`${process.env.PUBLIC_URL}/thumbnails/Gaming.jpg`}
     alt="Gaming Edits"
     className="w-full object-contain rounded-xl mb-4"
   />
@@ -163,7 +163,7 @@ export default function Portfolio() {
 >
 <div className="bg-white rounded-2xl shadow-md hover:shadow-lg p-4 transition duration-300">
   <img
-    src="/thumbnails/Cricket.jpg"
+    src={`${process.env.PUBLIC_URL}/thumbnails/Cricket.jpg`}
     alt="Cricket Edits"
     className="w-full object-contain rounded-xl mb-4"
   />
@@ -183,8 +183,8 @@ export default function Portfolio() {
 >
 <div className="bg-white rounded-2xl shadow-md hover:shadow-lg p-4 transition duration-300">
   <img
-    src="/thumbnails/College.jpg"
-    alt="Cricket Edits"
+   src={`${process.env.PUBLIC_URL}/thumbnails/College.jpg`}
+    alt="College Edits"
     className="w-full object-contain rounded-xl mb-4"
   />
   <h3 className="text-lg font-bold">College Reels</h3>
@@ -200,8 +200,8 @@ export default function Portfolio() {
 >
 <div className="bg-white rounded-2xl shadow-md hover:shadow-lg p-4 transition duration-300">
   <img
-    src="/thumbnails/Business.jpg"
-    alt="Cricket Edits"
+    src={`${process.env.PUBLIC_URL}/thumbnails/Business.jpg`}
+    alt="Brand Edits"
     className="w-full object-contain rounded-xl mb-4"
   />
   <h3 className="text-lg font-bold">Local Business Ads</h3>
@@ -236,7 +236,7 @@ export default function Portfolio() {
       <div className="flex justify-center mb-8">
         <div className="h-16 w-16 bg-skyblue/30 rounded-full flex items-center justify-center">
           <img
-            src="/thumbnails/DaVinci_Resolve_Studio.png"
+             src={`${process.env.PUBLIC_URL}/thumbnails/DaVinci_Resolve_Studio.png`}
             alt="DaVinci Resolve Logo"
             className="h-8 w-8 object-contain"
           />
@@ -257,7 +257,7 @@ export default function Portfolio() {
             <p className="text-gray-600 text-lg mb-10 max-w-2xl mx-auto">
               Need edits that actually <em>feel</em> something? Whether it's a quick reel, a full campaign, or something in between — let's make it happen.
             </p>
-            <form 
+<form 
   action="https://formspree.io/f/mblojpbq"
   method="POST"
   className="bg-white p-8 md:p-12 rounded-2xl shadow-sm border border-softblue/20 max-w-xl mx-auto"
